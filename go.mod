@@ -14,17 +14,16 @@ require (
 	github.com/bazelbuild/rules_go v0.22.4
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bmatcuk/doublestar v1.2.2
-	github.com/bsm/go-vlq v0.0.0-20150828105119-ec6e8d4f5f4e
 	github.com/cenkalti/backoff/v3 v3.2.2
 	github.com/cockroachdb/apd v1.1.0 // indirect
 	github.com/cockroachdb/pebble v0.0.0-20210120202502-6110b03a8a85
-	github.com/containerd/containerd v1.5.5 // indirect
+	github.com/containerd/containerd v1.6.26 // indirect
 	github.com/dgraph-io/badger/v3 v3.2011.1
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
 	github.com/docker/docker v20.10.5+incompatible // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/emicklei/dot v0.10.1
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.11.0+incompatible
 	github.com/fatih/color v1.10.0
 	github.com/gdamore/tcell v1.3.0
 	github.com/getsentry/sentry-go v0.11.0
@@ -33,12 +32,12 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang-migrate/migrate v3.5.4+incompatible
-	github.com/golang/mock v1.5.0
+	github.com/golang/mock v1.6.0
 	github.com/google/go-github/v32 v32.1.0
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20191008195207-8e1d251e947d
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/sessions v1.2.1
-	github.com/graph-gophers/graphql-go v1.1.0
+	github.com/graph-gophers/graphql-go v1.3.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/ianlancetaylor/cgosymbolizer v0.0.0-20200424224625-be1b05b0b279
 	github.com/inconshreveable/go-update v0.0.0-20160112193335-8152e7eb6ccf
@@ -47,32 +46,32 @@ require (
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/kylelemons/godebug v1.1.0 // indirect
-	github.com/lestrrat-go/jwx v1.2.4
-	github.com/lib/pq v1.10.0
+	github.com/lestrrat-go/jwx v1.2.29
+	github.com/lib/pq v1.10.4
 	github.com/mattn/go-runewidth v0.0.9
-	github.com/nats-io/nats-server/v2 v2.2.0
-	github.com/nats-io/nats-streaming-server v0.21.1
-	github.com/nats-io/nats.go v1.10.1-0.20210228004050-ed743748acac
-	github.com/nats-io/stan.go v0.8.3
+	github.com/nats-io/nats-server/v2 v2.7.4
+	github.com/nats-io/nats-streaming-server v0.24.3
+	github.com/nats-io/nats.go v1.13.1-0.20220308171302-2f2f6968e98d
+	github.com/nats-io/stan.go v0.10.2
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/olivere/elastic/v7 v7.0.12
 	github.com/ory/dockertest/v3 v3.6.3
 	github.com/ory/hydra-client-go v1.9.2
 	github.com/ory/kratos-client-go v0.5.4-alpha.1
 	github.com/phayes/freeport v0.0.0-20171002181615-b8543db493a5
-	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/client_golang v1.11.1
 	github.com/rivo/tview v0.0.0-20200404204604-ca37f83cb2e7
 	github.com/rivo/uniseg v0.1.0
 	github.com/sahilm/fuzzy v0.1.0
 	github.com/segmentio/backo-go v0.0.0-20200129164019-23eae7c10bd3 // indirect
 	github.com/sercand/kuberesolver/v3 v3.0.0
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.9.3
 	github.com/skratchdot/open-golang v0.0.0-20190402232053-79abb63cd66e
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/buntdb v1.2.1
 	github.com/txn2/txeh v1.2.1
 	github.com/vbauerster/mpb/v4 v4.11.0
@@ -81,22 +80,22 @@ require (
 	go.etcd.io/etcd/api/v3 v3.5.0
 	go.etcd.io/etcd/client/pkg/v3 v3.5.0
 	go.etcd.io/etcd/client/v3 v3.5.0
-	golang.org/x/net v0.0.0-20210330230544-e57232859fb2
-	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210611083646-a4fc73990273
-	golang.org/x/term v0.0.0-20210317153231-de623e64d2a6
-	google.golang.org/api v0.46.0
-	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
-	google.golang.org/grpc v1.38.0
+	golang.org/x/net v0.17.0
+	golang.org/x/oauth2 v0.10.0
+	golang.org/x/sync v0.3.0
+	golang.org/x/sys v0.13.0
+	golang.org/x/term v0.13.0
+	google.golang.org/api v0.103.0
+	google.golang.org/genproto v0.0.0-20230711160842-782d3b101e98
+	google.golang.org/grpc v1.58.3
 	gopkg.in/segmentio/analytics-go.v3 v3.1.0
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.20.6
-	k8s.io/apimachinery v0.20.6
+	k8s.io/api v0.22.5
+	k8s.io/apimachinery v0.22.5
 	k8s.io/cli-runtime v0.20.6
-	k8s.io/client-go v0.20.6
-	k8s.io/klog/v2 v2.8.0
+	k8s.io/client-go v0.22.5
+	k8s.io/klog/v2 v2.30.0
 	k8s.io/kubectl v0.20.6
 	sigs.k8s.io/controller-runtime v0.8.3
 	sigs.k8s.io/yaml v1.2.0
